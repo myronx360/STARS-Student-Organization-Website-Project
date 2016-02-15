@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> Slide show </title>
+<link href="stars.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+<script type="text/Javascript" src="stars.js"></script>
+<script src="cookie.js" type="text/javascript"></script>
+</head>
+<body>
+	<div class="mainBody">
+		<div class="header">
+			<img id="starsImg" src="images/starslogo.png" alt="stars student group logo">
+			<img id="unccImg" src="images/uncc_cci.png" alt="UNCC CCI logo">
+			<h1> S.T.A.R.S </h1>
+			<h2> STUDENTS & TECHNOLOGY IN ACADEMIA, RESEARCH & SERVICE </h2>
+		</div>
+		
+		<br>
+		<nav>
+			<a href="./home.html" style="text-decoration:none;"> <input class="buttons" type="button" value="HOME"> </a>
+			<a href="./slideshow.html" style="text-decoration:none;"> <input class="buttons" type="button" value="SLIDESHOW" Style="background-color:white; color:#b28f00"> </a>
+			<a href="./projects.html" style="text-decoration:none;"> <input class="buttons" type="button" value="PROJECTS"></a>
+			<a href="./how-to-join.html" style="text-decoration:none;"> <input class="buttons" type="button" value="JOIN"> </a>
+			<a href="./contact.html" style="text-decoration:none;"> <input class="buttons" type="button" value="CONTACT"> </a> 
+		</nav>
+		<h1> Slide Show </h1>
+		<div id="slideshowBody">
+			<figure>
+				<img src="images/starslogo.png" alt="Slide show images" id="slideshowImages" height="300px" width="380px"/>
+				<figcaption><h3 id="caption">The STARS Computing Corps Logo </h3></figcaption>
+			</figure>
+			<input class="showButtons" id="prevButton" type="button" value="Previous" onclick="changeToPrevImage()">
+			<input class="showButtons" id="nextButton" type="button" value="Next" onclick="changeToNextImage()">
+		</div>
+		<br />
+		<footer>
+					<br>
+			<label for="fontSize"> Change Font Size to: </label>
+			<br>
+			<input id="fontSize" type="text" name="fontSize">
+			<input class='buttons' id='changeFontSize' type='button' value='Change Font Size' onclick='submitFontSize()'>
+			<p> Stars is a UNCC student organization </p>
+		</footer>
+	</div>
+</body>
+</html>

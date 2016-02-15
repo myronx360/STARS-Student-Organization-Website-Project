@@ -1,0 +1,258 @@
+body{
+margin-top: 0;
+padding-top: 0;
+background-color:#005200;
+height:100%;
+min-height: 100px;
+}
+
+.mainBody{
+background-color:#006b24;
+height:100%;
+min-height: 1100px;
+width: 60%;
+margin-left: auto; margin-right: auto; 
+margin-top: 0;
+color: white;
+margin-bottom: 0;
+}
+
+
+.header{
+text-align: center;
+}
+
+
+
+h1{
+margin-top: 0;
+text-align: center;
+padding-top: 10px;
+}
+
+nav{
+text-align: center;
+font-size: 24px;
+background-color:#006b24;
+}
+
+#homeParaghraphs{
+border:2px solid #b28f00;
+outline:3px solid black;
+background-color:white;
+padding: 8px;
+color:black;
+margin-left: 20px;
+margin-right: 20px;
+}
+
+
+
+#homeH3 {
+text-align: center;
+}
+
+
+img {
+outline:3px solid black;
+border: 3px solid #b28f00;
+background-color:white;
+padding: 5px;
+}
+
+#starsImg{
+float: right;
+width:180px; 
+height:100px;
+margin: 20px;
+}
+
+#unccImg{
+float: left;
+width:180px; 
+height:100px;
+margin: 20px;
+}
+
+footer {
+text-align: center;
+font-style: italic;
+}
+
+#fontSize{
+width: 28%;
+padding: 5px 5px 5px !important;
+font-size: 18px !important;
+background-color: #b28f00;
+font-weight: bold;
+text-shadow: 1px 1px #b28f00;
+color: #ffffff;
+border-radius: 5px;
+-moz-border-radius: 5px;
+-webkit-border-radius: 5px;
+border: 1px solid #b28f00;
+cursor: pointer;
+box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
+-moz-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
+-webkit-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
+}
+
+.buttons{
+padding: 5px 5px 5px !important;
+font-size: 18px !important;
+background-color: #b28f00;
+font-weight: bold;
+text-shadow: 1px 1px #b28f00;
+color: #ffffff;
+border-radius: 5px;
+-moz-border-radius: 5px;
+-webkit-border-radius: 5px;
+border: 1px solid #b28f00;
+cursor: pointer;
+box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
+-moz-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
+-webkit-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
+}
+
+.buttons:hover{
+	background-color: white; 
+	color: #b28f00;
+}
+
+
+/** Contact Page **/
+legend{
+font-weight: bold;
+font-size: 130%;
+color:black;
+}
+
+#categoryError{
+float: right;
+color: red;
+}
+
+#contact{
+padding-left: 5%;
+}
+
+.infoBoxes{
+width: 80%;
+padding: 5px 5px 5px !important;
+font-size: 18px !important;
+background-color: #b28f00;
+font-weight: bold;
+text-shadow: 1px 1px #b28f00;
+color: #ffffff;
+border-radius: 5px;
+-moz-border-radius: 5px;
+-webkit-border-radius: 5px;
+border: 1px solid #b28f00;
+cursor: pointer;
+box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
+-moz-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
+-webkit-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
+}
+
+#info{
+float: left;
+width: 45%;
+height: 45%;
+padding-right: 10px;
+}
+
+#category{
+float: left;
+width: 45%;
+height: 15%;
+}
+
+#lastSet{
+width: 45%;
+height: 75%;
+float: left;
+}
+
+#explainForm{
+
+text-align: center;
+padding: 35px;
+}
+
+#contactPage{
+border:2px solid #b28f00;
+outline:3px solid black;
+background-color:white;
+padding: 8px;
+color:black;
+margin-left: 20px;
+margin-right: 20px;
+}
+
+/** SlideShow Page **/ 
+#slideshowBody{
+text-align: center;
+border:3px solid #b28f00;
+outline:3px solid black;
+background-color:white;
+padding: 8px;
+color:black;
+margin-left: 20px;
+margin-right: 20px;
+}
+
+#prevButton{
+margin:5px;
+margin-right:60px;
+}
+
+#slideshowImages{
+border:0px;
+outline:0px;
+}
+
+.showButtons{
+width:150px;
+padding: 5px 5px 5px !important;
+font-size: 18px !important;
+background-color: #b28f00;
+font-weight: bold;
+text-shadow: 1px 1px #b28f00;
+color: #ffffff;
+border-radius: 5px;
+-moz-border-radius: 5px;
+-webkit-border-radius: 5px;
+border: 1px solid #b28f00;
+cursor: pointer;
+box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
+-moz-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
+-webkit-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
+}
+
+/** Projects Page **/
+#projectPage{
+border:2px solid #b28f00;
+outline:3px solid black;
+background-color:white;
+padding: 8px;
+color:black;
+margin-left: 20px;
+margin-right: 20px;
+}
+
+
+
+/** Join Page **/
+
+#joinPage{
+border:2px solid #b28f00;
+outline:3px solid black;
+background-color:white;
+padding: 8px;
+color:black;
+margin-left: 20px;
+margin-right: 20px;
+}
+
+
+
